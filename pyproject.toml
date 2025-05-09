@@ -3,7 +3,7 @@ name = "attendance-formatter"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Seth Roberts",email = "sethknock@gmail.com"}
 ]
 readme = "README.md"
 requires-python = ">=3.10"
@@ -11,10 +11,6 @@ dependencies = [
     "flask (>=3.1.0,<4.0.0)",
     "gunicorn (>=23.0.0,<24.0.0)"
 ]
-
-[tool.poetry]
-packages = [{include = "attendance_formatter", from = "src"}]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
