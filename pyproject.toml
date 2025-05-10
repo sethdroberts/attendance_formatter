@@ -1,10 +1,11 @@
 [project]
-name = "attendance-formatter"
+name = "attendance_formatter"
 version = "0.1.0"
-description = ""
+description = "A simple app to convert Google Meet timesheets into attendance records"
 authors = [
-    {name = "Seth Roberts",email = "sethknock@gmail.com"}
+    {name = "Seth Roberts"}
 ]
+license = {text = "MIT License"}
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -13,8 +14,7 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "attendance_formatter", from = "src"}]
-
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
